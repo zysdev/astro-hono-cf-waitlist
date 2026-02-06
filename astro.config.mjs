@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 import tailwindcss from "@tailwindcss/vite";
 
@@ -8,6 +8,6 @@ export default defineConfig({
   srcDir: "./src/client",
   vite: {
     // @ts-ignore
-    plugins: [tailwindcss()]
-  }
+    plugins: [tailwindcss()],
+  },
 });
